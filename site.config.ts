@@ -1,8 +1,8 @@
 export const config = {
   siteMeta: {
-    title: "Team Blog Hub",
-    teamName: "catnose Inc.",
-    description: "RSS based blog starter kit for teams.",
+    title: "tantan-tanuki Blog Hub",
+    teamName: "tantan-tanuki",
+    description: "RSS based blog",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
@@ -14,11 +14,7 @@ export const config = {
       href: "/about",
     },
     {
-      title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
-    },
-    {
-      title: "GitHub",
+      title: "SpecialThanks",
       href: "https://github.com/catnose99/team-blog-hub",
     },
   ],

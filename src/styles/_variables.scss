@@ -1,9 +1,16 @@
 :root {
-  --color-base-background: #111;
-  --color-base-background-lighter: #24242d;
-  --color-base-text: #fff;
-  --color-base-text-lighter: rgba(212, 231, 241, 0.6);
-  --color-border: rgba(115, 125, 130, 0.4);
-  --color-primary-background: #9060ff;
-  --color-primary-text: #b494ff;
+  // 背景色
+  --color-base-background: #8b5e3d;
+  // 記事毎の背景色
+  --color-base-background-lighter: #f0cca3;
+  //タイトル等の基本文字色
+  --color-base-text: #333827;
+  //注釈文字色？
+  --color-base-text-lighter: #493a3c;
+  //罫線色
+  --color-border: #147931;
+  //NEWタグの背景色
+  --color-primary-background: #007033;
+  //NEWタグの文字色
+  --color-primary-text: #449234;
 }

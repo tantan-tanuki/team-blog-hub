@@ -36,7 +36,7 @@ export const PageSEO: React.FC<Props> = (props) => {
       <meta property="og:site" content={config.siteMeta.title} />
       <meta
         property="og:image"
-        content={ogImageUrl || `${config.siteRoot}/og.png`}
+        content={ogImageUrl || `${config.siteRoot}/avatars/tanuki.png`}
       />
       {!!description && (
         <>
