@@ -24,7 +24,17 @@ const Page: NextPage = () => {
 
       <section className="home-hero">
         <ContentWrapper>
-          <h1 className="home-hero__title">{config.siteMeta.title}</h1>
+          <h1 className="home-hero__title">
+            {config.siteMeta.title}
+            <Link href="/feed" passHref>
+              <a className="site-header__link">
+                <img
+                  src="/icons/rss.svg"
+                  alt="RSS" width={33} height={33}
+                />
+              </a>
+            </Link>
+          </h1>
           {!!config.siteMeta.description && (
             <p className="home-hero__description">
               {config.siteMeta.description}
