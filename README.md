@@ -1,1 +1,1 @@
-# [SpecialThanks](https://zenn.dev/catnose99/articles/cb72a73368a547756862)
+# [SpecialThanks](https://github.com/catnose99/team-blog-hub)
