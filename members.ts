@@ -9,7 +9,7 @@ export const members: Member[] = [
     avatarSrc: "/avatars/tanuki.png",
     sources: [
       "https://note.com/tan_tan_tanuki/rss",
-      "https://zenn.dev/tantan_tanuki/feed",
+      "https://zenn.dev/tantan_tanuki/feed?all=1",
     ],
     // includeUrlRegex: "medium.com|zenn.dev",
     twitterUsername: "@tantant53983777",
